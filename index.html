@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div id = "header">header</div>
+    <div id = "page">
+        <div id="content">
+            <h1>Основные теги</h1>
+            <div>
+                <h2>Тег р</h2>
+                <p style="color: #555"><strong>Абзац</strong> - часть письменной речи, <em>состоящая из одного или нескольких предложений</em>. <br>Абзац является единицей членения текста, находящейся в промежутке между фразой и главой. Каждый абзац начинается с новой строки.</p>
+            </div>
+            <div>
+                <h2>Тег span</h2>
+                <span>Просто бессмысленная надпись</span>
+            </div>
+            <div>
+                <h2>Таблицы</h2>
+                <table border="1">
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                    </tr>
+                    <tr>
+                        <td>Steve</td>
+                        <td>Jobs</td>
+                    </tr>
+                    <tr>
+                        <td>Bill</td>
+                        <td>Gates</td>
+                    </tr>
+                </table>
+                <table border="1">
+                    <caption>Table caption</caption>
+                    <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Second Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Steve</td>
+                        <td>Jobs</td>
+                    </tr>
+                    </tbody>
+                    <tfoot> <!-- some thead --> </tfoot>
+                </table>
+            </div>
+            <div>
+                <h2>Ссылки</h2>
+                <a href="http://google.com">гуглить!</a>
+            </div>
+            <div>
+                <h2>Списки</h2>
+                <ul>
+                    <li>Flowers</li>
+                    <li>Champagne</li>
+                    <li>Something for tea</li>
+                </ul>
+                <ol>
+                    <li>Flowers</li>
+                    <li>Champagne</li>
+                    <li>Something for tea</li>
+                </ol>
+            </div>
+            <div>
+                <h2>Тег img</h2>
+                <img src="image/dog.jpg" alt="Hello world!" height="200" width="150"/>
+            </div>
+            <div>
+                <h2>Формы</h2>
+                <form action="#" method="POST">
+                    <div><label for="name">Your name: </label><input id="name" name="name" type="text" placeholder="Enter your name" value="Sasha"/></div>
+                    <br>
+                    <div><input name="name" type="color" placeholder="Enter your name" value="Sasha"/></div>
+                    <br>
+                    <div><input name="name" type="date" placeholder="Enter your name" value="Sasha"/></div>
+                    <br>
+                    <div><textarea name="textarea" rows="10" cols="50">Long text...</textarea></div>
+                    <br>
+                    <div>
+                        <div><input name="direction" type="radio" value="1" />One</div>
+                        <div><input name="direction" type="radio" value="2" />Two</div>
+                        <div><input name="direction" type="radio" value="3" />Three</div>
+                        <div><input name="direction" type="radio" value="4" />Four</div>
+                    </div>
+                    <br>
+                    <div>
+                        <div><input name="agree" type="checkbox" value="1" />One</div>
+                        <div><input name="agree" type="checkbox" value="2" />Two</div>
+                    </div>
+                    <br>
+                    <div>
+                        <select name="select_me">
+                            <option value="expensive">Fast</option>
+                            <option value="long">Quality</option>
+                            <option value="badly">Cheap<option>
+                        </select>
+                    </div>
+                    <br>
+                    <input name="submit" type="submit" value="Submit" />
+                    <input name="reset" type="reset" value="Reset" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id = "footer">footer</div>
+</body>
+</html>
